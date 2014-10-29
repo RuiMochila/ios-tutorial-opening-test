@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChildViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPageViewControllerDataSource, ChildViewControllerDelegate>
 
+@property (strong, nonatomic) UIPageViewController *pageController;
 
 @end
 

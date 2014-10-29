@@ -14,6 +14,7 @@
 		DB56C1881A00F2C000391067 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB56C1871A00F2C000391067 /* Images.xcassets */; };
 		DB56C18B1A00F2C000391067 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB56C1891A00F2C000391067 /* LaunchScreen.xib */; };
 		DB56C1971A00F2C100391067 /* TutorialStartTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB56C1961A00F2C100391067 /* TutorialStartTestTests.m */; };
+		DB56C1A21A00F50800391067 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB56C1A11A00F50800391067 /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DB56C1901A00F2C100391067 /* TutorialStartTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialStartTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB56C1951A00F2C100391067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB56C1961A00F2C100391067 /* TutorialStartTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialStartTestTests.m; sourceTree = "<group>"; };
+		DB56C1A01A00F50800391067 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		DB56C1A11A00F50800391067 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,13 @@
 		DB56C1791A00F2C000391067 /* TutorialStartTest */ = {
 			isa = PBXGroup;
 			children = (
+				DB56C1841A00F2C000391067 /* Main.storyboard */,
 				DB56C17E1A00F2C000391067 /* AppDelegate.h */,
 				DB56C17F1A00F2C000391067 /* AppDelegate.m */,
 				DB56C1811A00F2C000391067 /* ViewController.h */,
 				DB56C1821A00F2C000391067 /* ViewController.m */,
-				DB56C1841A00F2C000391067 /* Main.storyboard */,
+				DB56C1A01A00F50800391067 /* ChildViewController.h */,
+				DB56C1A11A00F50800391067 /* ChildViewController.m */,
 				DB56C1871A00F2C000391067 /* Images.xcassets */,
 				DB56C1891A00F2C000391067 /* LaunchScreen.xib */,
 				DB56C17A1A00F2C000391067 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				DB56C1831A00F2C000391067 /* ViewController.m in Sources */,
 				DB56C1801A00F2C000391067 /* AppDelegate.m in Sources */,
 				DB56C17D1A00F2C000391067 /* main.m in Sources */,
+				DB56C1A21A00F50800391067 /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
