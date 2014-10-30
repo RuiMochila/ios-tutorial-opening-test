@@ -11,7 +11,6 @@
 @interface ViewController ()
 
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
-@property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 
 @end
 
